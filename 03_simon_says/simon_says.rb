@@ -11,10 +11,25 @@ def repeat(string,x=2)
 p Array.new(x, string).join(" ")
 end
 
-# repeat("hello",3)
+def start_of_word (x, y)
+    x.split("").first(y).join
+end
 
-# def repeat(expression, number = 2)
-#     expression_array = []
-#     (1..number).each { expression_array.push(expression) }
-#     expression_array.join(" ")
-# end
+def first_word (x)
+    x.split(" ").first(1).join
+end
+
+def titleize (x)
+    sw = ["and","over","the"]
+
+	phrase = x.split(' ')
+	phrase.each { | word | 
+		if sw.include?(word) && phrase.index(word) != 0
+			word 
+		else 
+			word.capitalize!
+		end
+    }
+	return phrase.join(' ')
+
+end
