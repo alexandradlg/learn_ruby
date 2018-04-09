@@ -6,7 +6,7 @@ Test Driven Development
 
 Projet libre de droit et d'accès à la lecture/écriture. 
 Pour pouvoir visualiser le projet, un simple navigateur suffit.
-Pour puvoir visualiser et run les tests ==> Rspec 
+Pour pouvoir visualiser et run les tests ==> Rspec 
 
 
 ```
@@ -17,8 +17,8 @@ Firefox, Safari, Chrome, Internet Explorer 8, ...
 
 * Visual Studio Code
 * GitHub
-* De l'amour
 * Rspec
+* De l'amour
 
 ## Github 
 
