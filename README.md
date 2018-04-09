@@ -13,6 +13,10 @@ Pour pouvoir visualiser et run les tests ==> Rspec
 Firefox, Safari, Chrome, Internet Explorer 8, ...
 ```
 
+## Commentaires du code
+
+Dernier commit à 22h, on a pas eu/pas prit le temps de commenter notre code, promis la prochaine fois, on s'y met <3
+
 ## Construit avec
 
 * Visual Studio Code
