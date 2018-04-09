@@ -20,7 +20,7 @@ Firefox, Safari, Chrome, Internet Explorer 8, ...
 * De l'amour
 * Rspec
 
-##Github 
+## Github 
 
 * Repo forked from felhix/learn_ruby
 * Dossier day_6_THP : regroupe les différents excercies faits aujourd'hui
