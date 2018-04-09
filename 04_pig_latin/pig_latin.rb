@@ -1,5 +1,5 @@
 def translate(x)
-    vowel = ["a","e","i","o","u","y"]
+    vowel = ["a","e","i","o","u","y", "qu"]
     consonant = ["b","c","d","f","g","h","j","k","l","m","n","p","q","r","s","t","v","w","x","z"]
     translation =[]
 
@@ -12,9 +12,16 @@ def translate(x)
 
             if word_cut.start_with?(*consonant)
                 word_cut = word[2...l]
-                size = word_cut.length
-                word_cut.insert(size,"#{word[0, 2]}ay")
-                translation.push(word_cut)
+                    if word_cut.start_with?(*consonant)
+                        word_cut = word[3...l]
+                        size = word_cut.length
+                        word_cut.insert(size,"#{word[0, 3]}ay")
+                        translation.push(word_cut)
+                    else
+                        size = word_cut.length
+                        word_cut.insert(size,"#{word[0, 2]}ay")
+                        translation.push(word_cut)
+                    end
             else
                 size = word_cut.length
                 word_cut.insert(size,"#{word[0]}ay")
