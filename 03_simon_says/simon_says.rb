@@ -7,7 +7,14 @@ def shout(string)
     string.upcase
 end
 
-def repeat(string,x)
-    print "#{string} " * x
+def repeat(string,x=2)
+p Array.new(x, string).join(" ")
 end
-puts repeat("hello",3)
+
+# repeat("hello",3)
+
+# def repeat(expression, number = 2)
+#     expression_array = []
+#     (1..number).each { expression_array.push(expression) }
+#     expression_array.join(" ")
+# end
