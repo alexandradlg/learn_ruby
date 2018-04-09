@@ -4,7 +4,10 @@ Test Driven Development
 
 ## Pré-requis
 
-Projet libre de droit et d'accès à la lecture/écriture. Pour pouvoir visualiser le projet, un simple navigateur suffit.
+Projet libre de droit et d'accès à la lecture/écriture. 
+Pour pouvoir visualiser le projet, un simple navigateur suffit.
+Pour puvoir visualiser et run les tests ==> Rspec 
+
 
 ```
 Firefox, Safari, Chrome, Internet Explorer 8, ...
