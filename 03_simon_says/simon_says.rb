@@ -7,8 +7,7 @@ def shout(string)
     string.upcase
 end
 
-def repeat(string)
-    2.times {
-    print "#{string} "
-    }
+def repeat(string,x)
+    print "#{string} " * x
 end
+puts repeat("hello",3)
